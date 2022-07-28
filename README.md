@@ -7,9 +7,9 @@ You can customize the flles as your needs.
 
 # Files
 - HTML
-     example.html file
-      <!DOCTYPE html>
-        <html lang="en">
+          example.html file
+          <!DOCTYPE html>
+          <html lang="en">
                         <head>
                         <meta charset="UTF-8">
                         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,9 +17,9 @@ You can customize the flles as your needs.
                         <title>Document</title>
                 </head>
                 <body>
-                        //Html code here............
+                    //Html code here............
                 </body>
-       </html>  
+          </html>  
        
 - CSS 
 CSS is a stylesheet that styles the LogIn form to create an aesthetic appearance.
