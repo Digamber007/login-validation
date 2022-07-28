@@ -8,7 +8,7 @@
 # Files
 
  - HTML
-         `code( <!DOCTYPE html>
+ `code( <!DOCTYPE html>
                     <html lang="en">
                     <head>
                         <meta charset="UTF-8">
