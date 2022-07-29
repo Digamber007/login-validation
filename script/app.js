@@ -32,7 +32,8 @@ let engine = (id, serial, message) => {
     successIcon[serial].style.opacity = "0";
   } else {
     errorMsg[serial].innerHTML = "";
-    id.style.border = "2px solid green";
+    id.style.border = "2px solid green", "Login Success !";
+    alert("Login succesful !");
 
     // icons
     failureIcon[serial].style.opacity = "0";
