@@ -35,7 +35,9 @@ let engine = (id, serial, message) => {
   else {
     errorMsg[serial].innerHTML = "";
     id.style.border = "2px solid green", "Login Success !";
-    alert("Login succesful !")
+//     alert("Login succesful !")
+        location.href = 'logout.html?dis=yes';
+
     
 
     // icons
