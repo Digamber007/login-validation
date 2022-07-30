@@ -3,17 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Login</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/style.css">
   </head>
-  <body>
+  <body class="login">
     <div class="container">
       <div class="content">
         <div class="logo">
           <img src="./img/icon-logo.svg" class="icon-logo" alt="logo-img" />
-          <span class="logo-text">Lorem</span>
+          <span class="logo-text">Wlcome</span>
         </div>
         
         <div class="image"></div>
@@ -24,7 +24,7 @@
 
       </div>
       
-      <form id="form" method="post" action="./logout.html">
+      <form id="form" class="loginForm" action="./logout.html">
         <div class="social">
           <div class="title">Get Started</div>
           <div class="question">
@@ -49,18 +49,18 @@
         <div>
           <label for="username">Username</label>
           <i class="fas fa-user"></i>
-          <input type="text" name="username" id="username" placeholder="Username" />
+          <input type="text" class="input" id="username" placeholder="Username" />
           <i class="fas fa-exclamation-circle failure-icon"></i>
           <i class="far fa-check-circle success-icon"></i>
-          <div class="error"></div>
+          <div class="error-message"></div>
         </div>
         <div>
           <label for="password">Password</label>
           <i class="fas fa-lock"></i>
-          <input type="password" name="password" id="password" placeholder="Password" />
+          <input type="password" class="input" id="password" placeholder="Password" />
           <i class="fas fa-exclamation-circle failure-icon"></i>
           <i class="far fa-check-circle success-icon"></i>
-          <div class="error"></div>
+          <div class="error-message"></div>
         </div>
           
         <input type="submit" value="Login" class="btn-submit" id="submit"/>
