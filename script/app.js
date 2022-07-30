@@ -34,19 +34,15 @@ let engine = (id, serial, message) => {
   } 
   else {
     errorMsg[serial].innerHTML = "";
-    id.style.border = "2px solid green", "Login Success !";
-//     alert("Login succesful !")
-        location.href = 'logout.html?dis=yes';
-
-    
+    id.style.border = "2px solid green", "Login succesful !";
+    // alert("Login succesful !")
+    location.href = 'logout.html?dis=yes';
 
     // icons
     failureIcon[serial].style.opacity = "0";
     successIcon[serial].style.opacity = "1";
   }
 };
-
-
 
 
 
